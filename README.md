@@ -25,10 +25,10 @@ Outcome instruments: **GOSE**, **mRS**, **FIM**, **Barthel**, **DRS**, **MoCA**,
 
 ```
 brain_injury_qsp/
-├── scripts/      # 19 Python pipeline scripts (simulation, ML, QSP, SHAP, Bayesian, sensitivity)
+├── scripts/      # 12 Python pipeline scripts (core ML/QSP, SHAP, Bayesian, sensitivity)
 ├── data/         # Simulated cohorts and feature matrices (CSV + 1 NPY)
 ├── results/      # Model performance, SHAP, sensitivity, hold-out comparison tables
-└── figures/      # 4 main + 33 supplementary + 6 report figures + causal DAG
+└── figures/      # 4 main + 33 supplementary + 6 report figures
 ```
 
 ### `scripts/` (12 files)
@@ -86,9 +86,8 @@ brain_injury_qsp/
 
 ### `figures/`
 - `Figure1` – `Figure4` — 4 main manuscript figures
-- `SuppFig01` – `SuppFig33` + `SuppFig_CausalDAG` — 34 supplementary figures
+- `SuppFig01` – `SuppFig33` — 33 supplementary figures (incl. `SuppFig28_causal_dag.png`)
 - `report_fig*` — 6 report-only figures
-- `causal_dag_mermaid.{mmd,svg,png,_hq.png}` — causal DAG source + renders
 
 ---
 
