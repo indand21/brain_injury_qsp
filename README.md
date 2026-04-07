@@ -28,8 +28,7 @@ brain_injury_qsp/
 ├── scripts/      # 19 Python pipeline scripts (simulation, ML, QSP, SHAP, Bayesian, sensitivity)
 ├── data/         # Simulated cohorts and feature matrices (CSV + 1 NPY)
 ├── results/      # Model performance, SHAP, sensitivity, hold-out comparison tables
-├── figures/      # 4 main + 33 supplementary + 6 report figures + causal DAG
-└── docs/         # Methods supplements, data dictionary, TRIPOD-AI checklist, citation files
+└── figures/      # 4 main + 33 supplementary + 6 report figures + causal DAG
 ```
 
 ### `scripts/`
@@ -81,16 +80,6 @@ brain_injury_qsp/
 - `SuppFig01` – `SuppFig33` + `SuppFig_CausalDAG` — 34 supplementary figures
 - `report_fig*` — 6 report-only figures
 - `causal_dag_mermaid.{mmd,svg,png,_hq.png}` — causal DAG source + renders
-
-### `docs/`
-- `DataDictionary.md` — definitions of all 97 cohort variables
-- `SuppNote_ODESpecification.md` — full QSP ODE system equations
-- `SuppNote_SimulationValidation.md` — cohort generator validation
-- `SuppNote_CausalDAG.md` — causal model rationale
-- `SuppNote_BayesianODE.md` — PyMC Bayesian inference protocol
-- `SuppNote_TRIPOD_AI_Checklist.md` — TRIPOD-AI reporting compliance
-- `SuppTables.md` — supplementary tables (markdown)
-- `references.json`, `vancouver.csl` — bibliography metadata + citation style
 
 ---
 
@@ -161,8 +150,8 @@ All output figures and CSVs are written next to each script (mirroring this repo
 
 ## Methods notes
 
-- **Mechanistic priors.** ODE features are generated from a coupled ICP / CPP / cerebral-autoregulation / neuroinflammation system documented in `docs/SuppNote_ODESpecification.md`. After the psychiatric outcome fix, mechanistic features add neutral-to-marginal signal over clinical features (top QSP predictor for GOSE: `mech_ar_index`, autoregulation index, β = −0.36).
-- **Reporting.** The pipeline follows TRIPOD-AI guidance — see `docs/SuppNote_TRIPOD_AI_Checklist.md`.
+- **Mechanistic priors.** ODE features are generated from a coupled ICP / CPP / cerebral-autoregulation / neuroinflammation system. After the psychiatric outcome fix, mechanistic features add neutral-to-marginal signal over clinical features (top QSP predictor for GOSE: `mech_ar_index`, autoregulation index, β = −0.36).
+- **Reporting.** The pipeline follows TRIPOD-AI guidance.
 - **Uncertainty.** Conformal prediction intervals achieve 94.4% empirical coverage at the 95% nominal level; bootstrap PIs are unreliable (~33% coverage) and are not recommended.
 
 ---
