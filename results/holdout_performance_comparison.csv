@@ -1,0 +1,13 @@
+outcome,short_name,domain,metric,model,cv_mean,cv_std,holdout_score,optimism_bias
+gose_12m,GOSE,Functional,R²,LassoCV,0.4098,0.0186,0.3999,0.0099
+fim_total_12m,FIM,Functional,R²,LassoCV,0.5112,0.0351,0.497,0.0142
+barthel_12m,Barthel,Functional,R²,LassoCV,0.4834,0.0441,0.4592,0.0242
+hads_anxiety_12m,HADS-A,Psychiatric,R²,LassoCV,0.4383,0.0292,0.4573,-0.0191
+hads_depression_12m,HADS-D,Psychiatric,R²,LassoCV,0.2021,0.0085,0.1752,0.0268
+phq9_12m,PHQ-9,Psychiatric,R²,LassoCV,0.3771,0.0187,0.3537,0.0234
+pcl5_12m,PCL-5,Psychiatric,R²,LassoCV,0.3782,0.0478,0.3723,0.0059
+moca_12m,MoCA,Cognitive,R²,LassoCV,0.1531,0.0239,0.1086,0.0444
+sf36_mcs_12m,SF-36 MCS,Psychiatric,R²,LassoCV,0.1673,0.0049,0.1583,0.009
+qolibri_os_12m,QOLIBRI-OS,QoL,R²,LassoCV,0.1735,0.011,0.1836,-0.0101
+return_to_work_12m,RTW,Classification,AUC,RandomForest,0.8206,0.0101,0.8255,-0.0049
+mortality_12m,Mortality,Classification,AUC,RandomForest,0.5764,0.0236,0.6185,-0.0421

@@ -1,0 +1,6 @@
+model,accuracy,auc_macro,n_features
+LogisticRegression  (F_CLIN),0.4215,0.5162369355912997,28
+LogisticRegression  (F_ALL),0.413,0.5174930551616232,55
+RandomForest        (F_CLIN),0.414,0.5303862260826347,28
+RandomForest        (F_ALL),0.413,0.5180522957663694,55
+GradientBoosting    (F_ALL),0.3985000000000001,0.5265793517681674,55

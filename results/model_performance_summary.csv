@@ -1,0 +1,92 @@
+Domain,Outcome,Model,Metric,Mean,SD
+Functional,gose_12m,LASSO,R²,0.411,0.0463
+Functional,gose_12m,Random Forest,R²,0.3672,0.0574
+Functional,gose_12m,XGBoost,R²,0.3101,0.0643
+Functional,gose_12m,GBM,R²,0.362,0.0682
+Functional,gose_12m,MLP,R²,-0.2119,0.1775
+Functional,mrs_12m,LASSO,R²,0.3313,0.0501
+Functional,mrs_12m,Random Forest,R²,0.3013,0.0485
+Functional,mrs_12m,XGBoost,R²,0.2485,0.0641
+Functional,mrs_12m,GBM,R²,0.2764,0.0586
+Functional,mrs_12m,MLP,R²,-0.1294,0.0885
+Functional,fim_total_12m,LASSO,R²,0.5125,0.0437
+Functional,fim_total_12m,Random Forest,R²,0.4659,0.049
+Functional,fim_total_12m,XGBoost,R²,0.4057,0.0568
+Functional,fim_total_12m,GBM,R²,0.4536,0.0555
+Functional,fim_total_12m,MLP,R²,0.199,0.1108
+Functional,barthel_12m,LASSO,R²,0.4891,0.0481
+Functional,barthel_12m,Random Forest,R²,0.4423,0.0559
+Functional,barthel_12m,XGBoost,R²,0.3794,0.054
+Functional,barthel_12m,GBM,R²,0.4251,0.0599
+Functional,barthel_12m,MLP,R²,0.1179,0.088
+Functional,drs_12m,LASSO,R²,0.2568,0.0401
+Functional,drs_12m,Random Forest,R²,0.2103,0.0547
+Functional,drs_12m,XGBoost,R²,0.1228,0.0724
+Functional,drs_12m,GBM,R²,0.1833,0.067
+Functional,drs_12m,MLP,R²,-0.4417,0.154
+Cognitive,cog_composite_12m,LASSO,R²,0.3363,0.0206
+Cognitive,cog_composite_12m,Random Forest,R²,0.2955,0.0259
+Cognitive,cog_composite_12m,XGBoost,R²,0.2174,0.0285
+Cognitive,cog_composite_12m,GBM,R²,0.271,0.0435
+Cognitive,cog_composite_12m,MLP,R²,-0.085,0.0779
+Cognitive,moca_12m,LASSO,R²,0.1612,0.0231
+Cognitive,moca_12m,Random Forest,R²,0.1287,0.0296
+Cognitive,moca_12m,XGBoost,R²,0.06,0.0478
+Cognitive,moca_12m,GBM,R²,0.1094,0.0262
+Cognitive,moca_12m,MLP,R²,-0.6196,0.0898
+Psychiatric,hads_anxiety_12m,LASSO,R²,0.4348,0.0193
+Psychiatric,hads_anxiety_12m,Random Forest,R²,0.3835,0.0212
+Psychiatric,hads_anxiety_12m,XGBoost,R²,0.3192,0.029
+Psychiatric,hads_anxiety_12m,GBM,R²,0.3786,0.0198
+Psychiatric,hads_anxiety_12m,MLP,R²,-0.1619,0.0852
+Psychiatric,hads_depression_12m,LASSO,R²,0.1999,0.0198
+Psychiatric,hads_depression_12m,Random Forest,R²,0.1632,0.033
+Psychiatric,hads_depression_12m,XGBoost,R²,0.0618,0.0353
+Psychiatric,hads_depression_12m,GBM,R²,0.1311,0.0478
+Psychiatric,hads_depression_12m,MLP,R²,-0.5208,0.1209
+Psychiatric,phq9_12m,LASSO,R²,0.3733,0.0334
+Psychiatric,phq9_12m,Random Forest,R²,0.3501,0.0476
+Psychiatric,phq9_12m,XGBoost,R²,0.2685,0.076
+Psychiatric,phq9_12m,GBM,R²,0.3077,0.0606
+Psychiatric,phq9_12m,MLP,R²,-0.2447,0.2052
+Psychiatric,gad7_12m,LASSO,R²,0.3501,0.0339
+Psychiatric,gad7_12m,Random Forest,R²,0.2965,0.0344
+Psychiatric,gad7_12m,XGBoost,R²,0.1887,0.0249
+Psychiatric,gad7_12m,GBM,R²,0.262,0.0291
+Psychiatric,gad7_12m,MLP,R²,-0.3154,0.063
+Psychiatric,pcl5_12m,LASSO,R²,0.3726,0.0346
+Psychiatric,pcl5_12m,Random Forest,R²,0.3256,0.0382
+Psychiatric,pcl5_12m,XGBoost,R²,0.2398,0.0478
+Psychiatric,pcl5_12m,GBM,R²,0.2931,0.0347
+Psychiatric,pcl5_12m,MLP,R²,-0.1731,0.0763
+QoL,sf36_pcs_12m,LASSO,R²,0.1751,0.0598
+QoL,sf36_pcs_12m,Random Forest,R²,0.1236,0.063
+QoL,sf36_pcs_12m,XGBoost,R²,0.0084,0.0923
+QoL,sf36_pcs_12m,GBM,R²,0.0796,0.0776
+QoL,sf36_pcs_12m,MLP,R²,-0.4874,0.1458
+QoL,sf36_mcs_12m,LASSO,R²,0.1612,0.035
+QoL,sf36_mcs_12m,Random Forest,R²,0.1221,0.0313
+QoL,sf36_mcs_12m,XGBoost,R²,0.0495,0.0372
+QoL,sf36_mcs_12m,GBM,R²,0.0815,0.0356
+QoL,sf36_mcs_12m,MLP,R²,-0.5193,0.0923
+QoL,qolibri_os_12m,LASSO,R²,0.1793,0.019
+QoL,qolibri_os_12m,Random Forest,R²,0.1345,0.0194
+QoL,qolibri_os_12m,XGBoost,R²,0.0036,0.0278
+QoL,qolibri_os_12m,GBM,R²,0.0749,0.0335
+QoL,qolibri_os_12m,MLP,R²,-0.4832,0.1299
+QoL,mpai4_tscore_12m,LASSO,R²,0.0604,0.022
+QoL,mpai4_tscore_12m,Random Forest,R²,0.0423,0.0252
+QoL,mpai4_tscore_12m,XGBoost,R²,-0.0658,0.0576
+QoL,mpai4_tscore_12m,GBM,R²,-0.0005,0.0441
+QoL,mpai4_tscore_12m,MLP,R²,-0.7576,0.2501
+QoL,social_participation_12m,LASSO,R²,0.123,0.0357
+QoL,social_participation_12m,Random Forest,R²,0.0955,0.0482
+QoL,social_participation_12m,XGBoost,R²,0.0258,0.0483
+QoL,social_participation_12m,GBM,R²,0.0676,0.0653
+QoL,social_participation_12m,MLP,R²,-0.48,0.0415
+Classification,return_to_work_12m,Logistic-L1,AUC-ROC,0.6021,0.0863
+Classification,return_to_work_12m,Random Forest,AUC-ROC,0.6376,0.0159
+Classification,return_to_work_12m,XGBoost,AUC-ROC,0.606,0.0249
+Classification,mortality_12m,Logistic-L1,AUC-ROC,0.5346,0.0318
+Classification,mortality_12m,Random Forest,AUC-ROC,0.5781,0.0195
+Classification,mortality_12m,XGBoost,AUC-ROC,0.5374,0.0181

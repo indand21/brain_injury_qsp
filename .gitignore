@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Logs and run output
+*.log
+*.out
+*.err
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# OneDrive sync cruft
+~$*
+*.tmp
+*~
+
+# Manuscript artifacts (excluded from this repo by design)
+manuscript*.md
+manuscript*.docx
+manuscript*.pdf
+*Report.md
+*Report.docx
+*Report.pdf
+*Report_Final.*
+
+# EndNote
+*.enl
+*.Data/
+
+# Cache
+temp/
+.cache/

@@ -1,0 +1,19 @@
+Outcome,Variable,Severe_median,Severe_iqr,Moderate_median,Moderate_iqr,Mild_median,Mild_iqr,U,p_raw,r_rb,Direction,Test,p_adj_BH,Significant,Severe_pct,Moderate_pct,Mild_pct
+GOSE,gose_12m,4.0,3.0–5.0,6.0,5.0–7.0,7.0,5.0–7.0,10009.5,1.0908596786097785e-12,-0.535,Moderate > Severe,Mann-Whitney U,0.0,True,,,
+FIM Total,fim_total_12m,60.5,49.2–75.2,84.0,70.5–93.5,94.0,84.0–105.0,10286.5,4.813835236863682e-14,-0.578,Moderate > Severe,Mann-Whitney U,0.0,True,,,
+Barthel,barthel_12m,40.0,27.0–51.8,62.0,49.0–71.0,69.0,60.0–81.0,10348.0,1.8559555501829472e-14,-0.587,Moderate > Severe,Mann-Whitney U,0.0,True,,,
+mRS,mrs_12m,3.0,2.0–4.0,2.0,1.0–3.0,1.0,1.0–2.0,3411.5,1.742147128014391e-10,0.477,Severe worse,Mann-Whitney U,0.0,True,,,
+DRS,drs_12m,16.5,12.0–21.0,11.0,7.0–16.0,9.0,6.0–14.0,3644.5,8.617742046632602e-09,0.441,Severe worse,Mann-Whitney U,0.0,True,,,
+MoCA,moca_12m,22.0,20.0–23.0,22.0,21.0–24.0,24.0,22.0–26.0,8018.0,0.002530064319405611,-0.23,Severe > Moderate,Mann-Whitney U,0.0046,True,,,
+Cog. Composite,cog_composite_12m,-0.2,-0.6–0.2,0.2,-0.2–0.7,0.6,0.2–0.9,9319.5,2.1257046014427616e-08,-0.43,Moderate > Severe,Mann-Whitney U,0.0,True,,,
+HADS-Anxiety,hads_anxiety_12m,13.0,10.0–15.0,12.0,10.0–15.0,11.0,9.0–13.0,6251.0,0.5913466317114855,0.041,Severe worse,Mann-Whitney U,0.6261,False,,,
+HADS-Depression,hads_depression_12m,7.0,5.0–9.0,6.0,4.0–7.0,5.0,3.0–7.0,5079.5,0.003798213396389176,0.221,Severe worse,Mann-Whitney U,0.0061,True,,,
+PHQ-9,phq9_12m,10.0,8.0–13.8,9.0,7.0–12.0,8.0,6.0–11.0,5534.0,0.04818209028164189,0.151,Severe worse,Mann-Whitney U,0.0667,False,,,
+PCL-5,pcl5_12m,37.0,31.0–43.0,36.0,27.5–42.5,32.0,26.0–40.0,5839.0,0.1737700256471425,0.104,Severe worse,Mann-Whitney U,0.1955,False,,,
+GAD-7,gad7_12m,12.0,8.0–14.0,11.0,9.0–14.0,10.0,7.0–12.0,6311.5,0.6775856681603135,0.032,Severe worse,Mann-Whitney U,0.6776,False,,,
+QOLIBRI-OS,qolibri_os_12m,41.5,29.9–49.6,52.1,40.2–60.5,57.7,44.9–66.8,8862.0,2.7854614682439568e-06,-0.359,Moderate > Severe,Mann-Whitney U,0.0,True,,,
+SF-36 PCS,sf36_pcs_12m,47.5,38.5–57.1,55.4,47.5–63.6,56.7,48.0–63.8,8939.0,1.2979438043308155e-06,-0.371,Moderate > Severe,Mann-Whitney U,0.0,True,,,
+SF-36 MCS,sf36_mcs_12m,18.9,10.8–29.1,21.9,13.8–32.3,26.2,17.0–33.7,7315.5,0.11129975500418894,-0.122,Moderate > Severe,Mann-Whitney U,0.1336,False,,,
+MPAI-4,mpai4_tscore_12m,37.5,31.1–44.2,32.8,27.1–40.5,30.2,23.5–37.3,4862.5,0.0009237929959581503,0.254,Severe worse,Mann-Whitney U,0.0018,True,,,
+Return to Work,return_to_work_12m,,,,,,,8.264786812551405,0.004042140748260741,2.82,OR (Moderate/Severe),Chi-squared,0.0061,True,8.9,21.6,20.0
+Mortality,mortality_12m,,,,,,,3.2278264957513825,0.07239671554469862,1.44,OR (Moderate/Severe),Chi-squared,0.0931,False,38.7,47.7,34.1
