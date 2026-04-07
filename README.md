@@ -31,7 +31,10 @@ brain_injury_qsp/
 └── figures/      # 4 main + 33 supplementary + 6 report figures + causal DAG
 ```
 
-### `scripts/`
+### `scripts/` (12 files)
+
+**Core analysis pipeline (run in this order):**
+
 | Script | Purpose |
 |---|---|
 | `brain_injury_ai_pipeline.py` | Core simulation + classical ML + deep learning + trajectory modeling |
@@ -41,15 +44,21 @@ brain_injury_qsp/
 | `brain_injury_bayes_drug.py` | Bayesian ODE inference + osmotherapy PK/PD |
 | `brain_injury_performance.py` | Enhanced feature sets + latent factors + conformal prediction intervals |
 | `brain_injury_holdout_eval.py` | Hold-out (n=500) external validation |
-| `tbi_severity_comparison.py` | TBI severity-stratified subgroup analysis |
-| `sensitivity_analysis.py` | Sample size, feature reduction, missing data sensitivity |
-| `generate_causal_dag.py` / `render_causal_dag.py` | Causal DAG construction & rendering |
-| `validate_cohort.py` / `check_cohort.py` | Cohort validation utilities |
-| `generate_supp_tables.py` | Build supplementary tables |
-| `gen_fig19.py` | Generate stacking improvement figure |
-| `generate_report.py` | Build narrative report (excluded from this repo) |
-| `convert_to_endnote.py` / `make_endnote_docx.py` | Bibliography helpers |
-| `check_progress.py` | Pipeline progress monitor |
+
+**TRIPOD-AI compliance (subgroup + sensitivity):**
+
+| Script | Purpose |
+|---|---|
+| `sensitivity_analysis.py` | Sample size, feature reduction, missing data sensitivity (SA1–SA3) |
+| `tbi_severity_comparison.py` | TBI mild/moderate/severe subgroup analysis with FDR correction |
+
+**Auxiliary:**
+
+| Script | Purpose |
+|---|---|
+| `generate_causal_dag.py` | Render causal DAG figure (SuppFig28) |
+| `validate_cohort.py` | Sanity-check simulated cohort against published literature |
+| `check_cohort.py` | Quick inspection of trajectory class distribution |
 
 ### `data/`
 - `simulated_neurocritical_cohort_n2000.csv` — primary cohort (n=2000, seed 42)
